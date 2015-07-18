@@ -9,7 +9,7 @@
 import UIKit
 
 protocol FaceViewDataSource : class {
-    func smilinessForFaceView(sender: FaceView) -> Double?
+    func smilinessForFaceView(sender: FaceView) -> Double? 
 }
 
 @IBDesignable
